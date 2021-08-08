@@ -1,8 +1,9 @@
-<?php require_once '../script/pdocrud.php'; ?>
+<?php //require_once '../script/pdocrud.php'; ?>
 
 <?php
-$pdocrud = new PDOCrud();
-echo $pdocrud->dbTable("employee")->render();
+//$pdocrud = new PDOCrud();
+//echo $pdocrud->dbTable("employee")->render();
 ?>
-
-Conexion
+<?php
+$Conexion="Hola"
+echo "$Conexion"; 
